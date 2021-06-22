@@ -1,0 +1,43 @@
+.titulo{
+    width: 100%;
+    font-size: 15px;
+    text-align: left;
+    color: rgb(150, 146, 146);
+}
+.contenido-quienes{
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+.contenido-quienes p{
+    text-align: left;
+    font-size: 10px;
+    color: rgb(24, 102, 148);
+} 
+
+.img-edit{
+    max-width: 125px;
+    height: 125px;
+    padding: .5em;
+    height: 22vh;
+    width: 500px;
+    filter: drop-shadow(3px 4px 4px #444);
+    margin-left: 50px;
+}
+
+.slide-1{
+    height: 100%;
+}
+.slide-2{
+    height: 100%;
+}
+.slide-3{
+    height: 100%;
+}
+ion-slides{
+    height: 100%;
+}
+.content-card{
+    font-size: 15px;
+    text-align: left;
+}

@@ -1,0 +1,100 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+      <ion-title class="titulo">Catalogo</ion-title>
+    </ion-buttons>
+    
+  </ion-toolbar>
+</ion-header>
+<ion-fab vertical="top" horizontal="end" slot="fixed">
+  <ion-fab-button (click)="presentActionSheet()">
+    <ion-icon name="add"></ion-icon>
+  </ion-fab-button>
+</ion-fab>
+
+<ion-content >
+  <ion-list >
+    <ion-item-sliding>
+      <ion-item>
+        <ion-label>Espresso</ion-label>
+      </ion-item>
+      <ion-item-options side="end">
+        <ion-item-option (click)="presentAlert()">Info</ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+  
+    <ion-item-sliding>
+      <ion-item>
+        <ion-label>Espresso Macchiato</ion-label>
+      </ion-item>
+      <ion-item-options side="end">
+        <ion-item-option (click)="presentAlert1()">Info</ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+    <ion-item-sliding>
+      <ion-item>
+        <ion-label>Espresso Panna</ion-label>
+      </ion-item>
+      <ion-item-options side="end">
+        <ion-item-option (click)="presentAlert2()">Info</ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+    <ion-item-sliding>
+      <ion-item>
+        <ion-label>Espresso Americano</ion-label>
+      </ion-item>
+      <ion-item-options side="end">
+        <ion-item-option (click)="presentAlert3()">Info</ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+    <ion-item-sliding>
+      <ion-item>
+        <ion-label>Cappuccino</ion-label>
+      </ion-item>
+      <ion-item-options side="end">
+        <ion-item-option (click)="presentAlert4()">Info</ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+    <ion-item-sliding>
+      <ion-item>
+        <ion-label> Café Latte</ion-label>
+      </ion-item>
+      <ion-item-options side="end">
+        <ion-item-option (click)="presentAlert5()">Info</ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+    <ion-item-sliding>
+      <ion-item>
+        <ion-label>Vainilla Latte</ion-label>
+      </ion-item>
+      <ion-item-options side="end">
+        <ion-item-option (click)="presentAlert6()">Info</ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+    <ion-item-sliding>
+      <ion-item>
+        <ion-label>Caramel Macchiato</ion-label>
+      </ion-item>
+      <ion-item-options side="end">
+        <ion-item-option (click)="presentAlert7()">Info</ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+    <ion-item-sliding>
+      <ion-item>
+        <ion-label>Café Helado</ion-label>
+      </ion-item>
+      <ion-item-options side="end">
+        <ion-item-option (click)="presentAlert8()">Info</ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+    <ion-item-sliding>
+      <ion-item>
+        <ion-label>Tinto</ion-label>
+      </ion-item>
+      <ion-item-options side="end">
+        <ion-item-option (click)="presentAlert9()">Info</ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>

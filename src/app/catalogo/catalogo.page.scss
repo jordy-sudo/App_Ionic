@@ -1,0 +1,24 @@
+.botones{
+    width: 100%;
+    height: 20px;
+}
+.botones:hover{
+    color: rgb(55, 224, 55);
+}
+.md,.ios,.wp {
+    page-landing {
+      .custom-alertDanger {
+        background-color: #F35E5D !important;
+        background: #F35E5D  !important;
+        color: red !important;
+        $alert-md-background-color: #F35E5D;
+        $alert-ios-background: #F35E5D;
+      }}}
+
+.footer{
+    padding-top: 0px;
+}
+.cont{
+    background: rgb(85,36,4);
+    background: linear-gradient(0deg, rgba(85,36,4,0.969625350140056) 27%, rgba(138,93,30,0.8995973389355743) 100%);
+}
