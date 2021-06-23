@@ -1,4 +1,7 @@
 # App_Ionic
+
+👋 Hi, I’m @jordy-sudo
+
 Creación de una aplicación usando ionic// simple
 uso de <ion-butoons>,<ion-list> etc
 
